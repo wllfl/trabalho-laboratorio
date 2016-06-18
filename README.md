@@ -23,7 +23,7 @@ PÁGINA DE PESQUISA
 - A pesquisa é feita usando filter do AngularJS
 - Ao clicar no link "Localização" o usuário é redirecionando para o Google Maps com a localização da rede selecionada
 
-# Recursos e bibliotecas utilizados
+# Recursos e bibliotecas utilizadas
 - HTML5
 - CSS3
 - jQuery
