@@ -1,6 +1,6 @@
 # trabalho-laboratorio
-Trabalho de Pós Gradução - Disciplina de Laboratório
-O Projeto funcionado pode ser visto http://devwilliam.com.br/tcc
+- Trabalho de Pós Gradução - Disciplina de Laboratório
+- O Projeto funcionado pode ser visto http://devwilliam.com.br/tcc
 
 # Integrantes do Grupo
 - Kelly Taniguchi
