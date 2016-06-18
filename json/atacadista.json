@@ -1,0 +1,90 @@
+[
+	{
+		"logotipo": "atacadao.gif",
+		"empresa": "Atacadão Distribuição Comércio Indústria",
+		"endereco": "Av. Prof. José Barreto, 617",
+		"bairro": "Jardim Dinorah",
+		"cidade": "Cotia",
+		"uf": "SP",
+		"fone": "(11) 3019-4268",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	},
+	{
+		"logotipo": "assai.png",
+		"empresa": "Assaí Atacadista",
+		"endereco": "Estrada do Embú, 162",
+		"bairro": "Jardim Torino",
+		"cidade": "Cotia",
+		"uf": "SP",
+		"fone": "(11) 2159-4650",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	},
+	{
+		"logotipo": "roldao.png",
+		"empresa": "Roldão Atacadista",
+		"endereco": "Rod. Eng. Renê Benedito da Silva, 391",
+		"bairro": "Jardim Santa Rita",
+		"cidade": "Itapevi",
+		"uf": "SP",
+		"fone": "(11) 4143-7490",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	},
+	{
+		"logotipo": "makro.gif",
+		"empresa": "Makro Atacadista",
+		"endereco": "Rua João Ribeiro de Barros, 1411",
+		"bairro": "Vila Odim Antão",
+		"cidade": "Sorocaba",
+		"uf": "SP",
+		"fone": "(15) 3316-2720",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	},
+	{
+		"logotipo": "calvo.png",
+		"empresa": "Calvo Atacadista",
+		"endereco": "Av. Rio das Pedras, 2118",
+		"bairro": "Jardim Aricanduva",
+		"cidade": "São Paulo",
+		"uf": "SP",
+		"fone": "(11) 2723-6000",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	},
+	{
+		"logotipo": "seta.png",
+		"empresa" : "Seta Atacadista",
+		"endereco": "R. Eduardo Augusto Mesquita, 631",
+		"bairro": "Parque Santa Teresa",
+		"cidade": "Carapicuíba",
+		"uf": "SP",
+		"fone": "(11) 4186-9890",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	},
+	{
+		"logotipo": "alianca.png",
+		"empresa": "Aliança Atacadista",
+		"endereco": "Av. Afonso Pena, 3385",
+		"bairro": "Centro",
+		"cidade": "Uberlândia",
+		"uf": "MG",
+		"fone": "(34) 3233-9000",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	},
+	{
+		"logotipo": "akki.png",
+		"empresa": "Akki Atacadista",
+		"endereco": "Av. Elias Yasbek, 2839",
+		"bairro": "Água Morna",
+		"cidade": "Embu das Artes",
+		"uf": "SP",
+		"fone": "(11) 4785-1320",
+		"latitude": -23.5740652,
+		"longitude": -46.9596754
+	}
+]

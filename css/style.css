@@ -1,0 +1,115 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ .brand-logo{
+ 	font-size: 1.7rem !important;
+ }
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.parallax-container{
+	background: url("../images/atacado.jpg");
+	color: #fff;
+	height: auto;
+}
+
+.parallax-container h4{
+	font-size: 2.0rem; 
+}
+
+.parallax-container a{
+	color: #fff;
+	display: block;
+	padding: 15px;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	transition: all 0.5s;
+}
+
+.parallax-container a:hover{
+	color: #B71C1C;
+	opacity: 0.7;
+	background: #fff;
+}
+
+.parallax-container .box-slide{
+	float: left;
+	margin: 10% auto;
+}
+
+.contato{
+	background: #eee;
+}
+
+footer.page-footer {
+    margin-top: 0 !important; 
+}
+
+ul.lista li{
+	margin: 13px 0;
+}
+
+.box-atacadista{
+	border: 1px solid #B71C1C;
+	height: 130px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.box-atacadista:hover{
+	border: 2px solid #26a69a;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+img.logo{
+	height: 50%;
+}
+
+.info p, .gps p{
+	font-size: 0.9em;
+}
+
+.corpo-atacadista{
+	min-height: 300px;
+}
+
+.msg{
+	padding: 8px 10px;
+	visibility: hidden;
+}
+
+.erro{
+	border: 1px solid #e53935;
+	background: #ffebee;
+	color: #e53935;
+	visibility: visible;
+}
+
+.alerta{
+	border: 1px solid #ff8f00;
+	background: #fff8e1;
+	color: #ff8f00;
+	visibility: visible;
+}
+
+.sucesso{
+	border: 1px solid #009688;
+	background: #e0f2f1;
+	color: #009688;
+	visibility: visible;
+}
+
+

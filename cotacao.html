@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" ng-app="tcc" >
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Cotação de Produtos</title>
+
+  <!-- Ícones  -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <script src="js/angular.js"></script>  
+  <script src="js/app.js"></script>
+
+</head>
+<body ng-controller="AtacadistaCtrl">
+   
+  <!-- Topo -->
+  <a name="home"></a>    
+  <div class="navbar-fixed">
+    <nav class="red darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#home" class="brand-logo">API para Cotação</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <nav class='teal lighten-1'>
+   <div class="container nav-wrapper">
+      <div class="col s12">
+        <a href="index.php" class="breadcrumb">Principal</a>
+        <a href="#" class="breadcrumb">Cotação Produtos</a>
+      </div>
+    </div>
+  </nav>
+ 
+  <div class="container animated bounceInLeft">
+    <div class="section"> 
+
+      <div class="row">        
+          <div class="col s12 m12">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">search</i>
+                <input id="icon_prefix" type="text" ng-model="pesquisa">
+                 <label for="icon_prefix">Pesquisar Produto</label>
+              </div>
+          </div>
+      </div>    
+
+    </div>
+  </div>
+
+  <br />
+  
+  <!--   Footer   -->
+  <footer class="red darken-4 page-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col m6 s12">
+
+
+                <h5 class="white-text">Trabalho de Conclusão de Curso</h5>
+                <p class="grey-text text-lighten-4">Pós Graduação - Engenharia WEB</p>
+              </div>
+              <div class="col m4 offset-m2 s12">
+                <h5 class="white-text">Faculdade SENAC</h5>             
+              </div>
+          </div>
+      </div>
+      <div class="footer-copyright">
+          <div class="container" align="center">
+           Copyright © 2016 - API para Cotação - Todos os Direitos Reservados    
+          </div>
+      </div>
+  </footer>      
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/myscript.js"></script>  
+  </body>
+</html>

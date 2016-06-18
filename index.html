@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>API para Cotação</title>
+
+  <!-- Ícones  -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" >
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+  <!-- Topo -->
+  <a name="home"></a>    
+  <div class="navbar-fixed">
+  <nav class="red darken-4" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#home" class="brand-logo">API para Cotação</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#oquee">O que é?</a></li>
+        <li><a href="#pesquisa">Pesquisa</a></li>
+        <li><a href="#cotacao">Cotação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#oquee"><i class="fa fa-question-circle"></i> O que é?</a></li>
+        <li><a href="#pesquisa"><i class="fa fa-search"></i> Pesquisa</a></li>
+        <li><a href="#cotacao"><i class="fa fa-dollar"></i> Cotação</a></li>
+        <li><a href="#contato"><i class="fa fa-envelope"></i> Contato</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  </div>
+
+  <!--   Parallax   -->   
+  <div class="parallax-container">
+      <div class="container">
+        <div class="row">
+          <div class="col l5 s12 offset-l1 box-slide"> 
+              <a href="pesquisa.html" class="animated bounceInDown">
+                <h4><i class="fa fa-search fa-2x"></i><br><br> Pesquisa de Produtos?</h4>
+             </a>
+          </div>
+
+          <div class="col l5 s12 box-slide"> 
+              <a href="cotacao.html" class="animated bounceInDown">
+                <h4><i class="fa fa-dollar fa-2x"></i><br><br> Cotação de Produtos?</h4>
+             </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <br /> <br />
+
+  <!--   O que é?   -->
+  <a name="oquee"></a>  
+  <div class="container animated bounceInLeft">
+    <div class="section">      
+      <div class="row">        
+        <div class="col s12 m6">
+          <br><br><br>
+          <img src="images/restful.jpg"  class="responsive-img">          
+        </div>
+        <div class="col s12 m6">
+         <h4 class="red-text text-darken-4 right-align">O que é?</h4>
+         <p align="justify">Plataforma online para importar e atualizar dados sobre produtos e promoções dos Hipermercados Atacadistas conveniados. As importações dos dados são executadas a partir de arquivos XMLs gerados e atualizados diariamente pelos Atacadistas.</p>
+          <p align="justify">Os dados importados podem ser consumidos através de uma API RESTful que disponibiliza recursos para retornar dados de localização de estabelecimentos, produtos e cotação em diversos Hipermercados Atacadistas.</p>          
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <br /> <br /> 
+  
+  <!--   Pesquisa   -->
+  <a name="pesquisa"></a>
+  <div class="container animated bounceInRight">
+    <div class="section">      
+      <div class="row">
+          <h4 class="red-text text-darken-4">Pesquisa</h4>
+          <div class="col s12 m6">
+            <p align="justify">A API disponibiliza diversos recursos de pesquisa que podem ser consumidos por qualquer linguagem de programação, todos os dados são retornados no formato JSON:</p>
+            <ul class='lista'>
+              <li><strong><i class="fa fa-check"></i> Redes Atacadistas:-</strong> Pesquisar todos os estabelecimentos atadistas conveniados com a plataforma. Também é possível pesquisar estabelecimentos com dados de geolocalização, passando latitude e longitude.</li>
+              <li><strong><i class="fa fa-check"></i> Produtos:-</strong> Pesquisar todos os produtos de uma determinada rede atacadista a partir do nome da rede passado como parâmetro na requisição.</li>
+              <li><strong><i class="fa fa-check"></i> Promoções:-</strong> Pesquisar todos os produtos em promoção de uma determinada rede atacadista a partir do nome passado como parâmetro na requisição.</li>
+            </ul>            
+          </div>        
+          <div class="col s12 m6 center-align">
+             <img src="images/pesquisa.png" class="responsive-img">          
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <br /> <br /> 
+
+  <!--   Cotação   -->
+  <a name="cotacao"></a>
+  <div class="container animated bounceInLeft">
+    <div class="section">      
+      <div class="row">        
+        <h4 class="red-text text-darken-4 right-align">Cotação</h4>
+        <div class="col s12 m6 center-align">
+          <img src="images/cotacao.png" class="responsive-img">          
+        </div>
+        <div class="col s12 m6">
+          <p align="justify">É possível enviar como parâmetro uma string contendo o nome do produto desejado para cotação e receber como retorno todos os produtos da base de dados que tem relação com o parâmetro informado.</p>  
+          <p align="justify">A coleção de dados retornada pela API após a cotação contém a descrição do produto, valor e a rede Atacadista que  possui o produto.</p>    
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <br /> <br /> 
+
+  <!--   Contato   -->
+  <a name="contato"></a>
+  <div class="contato">
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m9">
+              <h3 class="red-text text-darken-4">Contato</h3>
+              <form id="form-contato">
+                  <div class="input-field col s12 m5">
+                      <input id="first_name" type="text" name="nome" id="nome" class="validate">
+                      <label for="first_name">Nome *</label>
+                  </div>
+
+                  <div class="input-field col s12 m5"> <input id="email" type="email" name="email" class="validate">
+                      <label for="email" data-error="Você digitou um endereço de e-mail inválido">E-mail *</label>
+                  </div>
+
+                  <div class="input-field col s12 m10">
+                      <input id="assunto" name="assunto" type="text">
+                      <label for="input_text">Assunto</label>
+                  </div>
+
+                  <div class="input-field col s12 m10">
+                    <textarea id="mensagem" name="mensagem" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Mensagem *</label>
+                  </div>
+
+                  <div class="input-field col s12 m10">
+                     <button type="button" class="waves-effect waves-light btn" id="enviar">Enviar</button>
+                     <span class="msg"></span>
+                  </div>
+              </form>      
+          </div>
+          <br /> 
+          <div class="col s12 m3">
+              <h5 class="red-text text-darken-4">Grupo</h5>
+              <ul>
+                  <li>William Francisco Leite</li>
+                  <li>Kelly Taniguchi</li>
+                  <li>Osnir Estevam de Lima</li>
+              </ul>
+              <br><br>          
+              <h5 class="red-text text-darken-4">Redes Sociais</h5>
+              <div class="col">
+                  <a class="blue-text text-darken-4" href="https://"><i class="fa fa-facebook fa-2x"></i></a>
+              </div>
+              <div class="col">
+                  <a class="blue-text text-darken-4" href="https://"><i class="fa fa-twitter fa-2x"></i></a>
+              </div>
+              <div class="col">
+                  <a class="blue-text text-darken-4" href="https://"><i class="fa fa-google-plus fa-2x"></i></a>
+              </div>
+              <div class="col">
+                   <a class="blue-text text-darken-4" href="https://"><i class="fa fa-envelope fa-2x"></i></a>
+              </div>  
+          </div>
+          </div>     
+        </div>
+      </div>
+  </div>  
+
+  <!--   Footer   -->
+  <footer class="red darken-4 page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col m6 s12">
+              <h5 class="white-text">Trabalho de Conclusão de Curso</h5>
+              <p class="grey-text text-lighten-4">Pós Graduação - Engenharia WEB</p>
+            </div>
+            <div class="col m4 offset-m2 s12">
+              <h5 class="white-text">Faculdade SENAC</h5>             
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container" align="center">
+         Copyright © 2016 - API para Cotação - Todos os Direitos Reservados    
+        </div>
+    </div>
+</footer>         
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/myscript.js"></script>  
+  </body>
+</html>
