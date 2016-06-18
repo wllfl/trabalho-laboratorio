@@ -5,7 +5,7 @@
 # Integrantes do Grupo
 - Kelly Taniguchi
 - Osnir Estevan
-- William Francico
+- William Francisco
 
 # Funcionalidades
 - Toda estilização foi feita usando framework Materialize CSS
