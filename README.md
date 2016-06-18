@@ -26,6 +26,7 @@ PÁGINA DE PESQUISA
 # Recursos e bibliotecas utilizadas
 - HTML5
 - CSS3
+- Framework Materialize CSS
 - jQuery
 - AngularJS
 - JSON
