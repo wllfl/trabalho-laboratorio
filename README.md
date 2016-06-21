@@ -11,6 +11,8 @@
 - Toda estilização foi feita usando framework Materialize CSS
 - Para animação dos containers está sendo usado a biblioteca Animate CSS
 
+# Página para Cotação de Produtos não foi implementadas, mas segue o mesmo formato da pesquisa de Atacadistas com AngularJS
+
 PÁGINA INDEX
 - Efeito Paralax página Index
 - Requisição para envio de e-mail via AJAX + jQuery
